@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de investimento</title>
+</head>
+<body>
+    <h1>Calculadora de retorno de um investimento (montante) com base nos valores do capital inicial, tempo em meses e taxa de juros mensal</h1>
+
+    <section>
+        <p>Capital inicial: <input type="text" name="investimento" id="capini"></p>
+        <p>Meses investidos: <input type="text" name="tempomeses" id="meses"></p>
+        <p>Juros mensal: <input type="text" name="jurosmensal" id="jurmes"></p>
+        <input type="button" value="Calcular" onclick="calc()">
+        <div id="res">O retorno do investimento foi de: </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/sergio-f-leite-jr/" target="_blank">Sérgio Leite</a> </p>
+    </footer>
+</body>
+    
+</html>
